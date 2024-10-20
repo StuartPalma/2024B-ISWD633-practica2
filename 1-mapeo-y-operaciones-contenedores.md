@@ -22,6 +22,7 @@ PS C:\Users\User> docker run -d --name serverJenkins --publish published=8080,ta
 ````
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+![Imagen](img/accesoPuerto).
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
