@@ -69,6 +69,7 @@ drwxr-xr-x   1 root root 4096 Dec  5  2023 usr
 drwxr-xr-x   1 root root 4096 Dec  5  2023 var
 ````
 # COLOCAR UNA CAPTURA DE PANTALLA
+![Imagen](img/lista.jpeg)
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
