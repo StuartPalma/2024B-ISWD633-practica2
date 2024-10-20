@@ -37,9 +37,37 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ```
 # COMPLETAR
 ### ¿Para qué se usa el comando ls?
+````
+sirve para listar os archicos del contenedor
+````
 ### ¿Para qué sirve el argumento -l junto al comando ls?
+````
+Srve para ver mas a detalle los permisos de cada directorio o archivo del contenedor
+````
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
+````
+docker exec serverJenkins ls -l
+PS C:\Users\User> docker exec serverJenkins ls -l
+total 56
+drwxr-xr-x   1 root root 4096 Dec  5  2023 bin
+drwxr-xr-x   5 root root  340 Oct 20 13:54 dev
+drwxr-xr-x   1 root root 4096 Oct 20 13:54 etc
+drwxr-xr-x   2 root root 4096 Nov 30  2023 home
+drwxr-xr-x   1 root root 4096 Dec  5  2023 lib
+drwxr-xr-x   5 root root 4096 Nov 30  2023 media
+drwxr-xr-x   2 root root 4096 Nov 30  2023 mnt
+drwxr-xr-x   1 root root 4096 Dec  5  2023 opt
+dr-xr-xr-x 245 root root    0 Oct 20 13:54 proc
+drwx------   1 root root 4096 Dec  5  2023 root
+drwxr-xr-x   2 root root 4096 Nov 30  2023 run
+drwxr-xr-x   1 root root 4096 Dec  5  2023 sbin
+drwxr-xr-x   2 root root 4096 Nov 30  2023 srv
+dr-xr-xr-x  11 root root    0 Oct 20 13:54 sys
+drwxrwxrwt   1 root root 4096 Oct 20 13:54 tmp
+drwxr-xr-x   1 root root 4096 Dec  5  2023 usr
+drwxr-xr-x   1 root root 4096 Dec  5  2023 var
+````
 # COLOCAR UNA CAPTURA DE PANTALLA
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
